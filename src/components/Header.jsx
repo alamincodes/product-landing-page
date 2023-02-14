@@ -8,6 +8,7 @@ import NavMobile from "./NavMobile";
 // import icons
 import { FaBars } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
+import { FiPlus } from "react-icons/fi";
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -51,7 +52,7 @@ const Header = () => {
             onClick={() => setNavMobile(!navMobile)}
             className="text-2xl text-primary cursor-pointer lg:hidden"
           >
-            {navMobile ? <BsArrowRight /> : <FaBars />}
+            {navMobile ? <FiPlus className="rotate-45" /> : <FaBars />}
           </div>
         </div>
       </div>
