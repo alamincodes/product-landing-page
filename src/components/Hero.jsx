@@ -1,10 +1,12 @@
 import React from "react";
 import { heroData } from "../data";
+import Header from "./Header";
 
 const Hero = () => {
   const { title, subtitle, image, btnText } = heroData;
   return (
     <section className="lg:h-[900px] py-12">
+      <Header/>
       <div className="container mx-auto relative h-full">
         <div className="flex flex-col xl:flex-row items-center h-full md:py-24">
           {/* text */}
