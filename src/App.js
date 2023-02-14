@@ -7,6 +7,7 @@ import About from "./components/About";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
 import CtaSection from "./components/CtaSection";
+import Footer from "./components/Footer";
 function App() {
   // aos initialization
   Aos.init({
@@ -20,6 +21,7 @@ function App() {
       <Features />
       <Testimonials />
       <CtaSection/>
+      <Footer/>
     </div>
   );
 }
