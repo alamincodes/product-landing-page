@@ -3,6 +3,10 @@ import Hero from "./components/Hero";
 // import animate scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
+import About from "./components/About";
+import Features from "./components/Features";
+import Testimonials from "./components/Testimonials";
+import CtaSection from "./components/CtaSection";
 function App() {
   // aos initialization
   Aos.init({
@@ -10,8 +14,12 @@ function App() {
     offset: 0,
   });
   return (
-    <div>
+    <div className="overflow-hidden">
       <Hero />
+      <About />
+      <Features />
+      <Testimonials />
+      <CtaSection/>
     </div>
   );
 }

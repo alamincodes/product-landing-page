@@ -80,7 +80,7 @@ export const featuresData = {
       bgImage: Feature3BgImg,
       title: 'Print Out',
       description:
-        'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
+        'Print out service gives you convenience if someday you need print data.',
       linkText: 'Learn more',
       delay: '1000',
     },
